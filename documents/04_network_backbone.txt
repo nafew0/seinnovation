@@ -1,0 +1,18 @@
+BdREN Network and Backbone
+
+BdREN has taken a 20-year lease of more than 3,200 km of Optical Ground Wire
+(OPGW) from the Power Grid Company of Bangladesh (PGCB), signed in 2011, to build
+its national backbone. Every public university is provided with 1G campus
+connectivity, and distribution points carry dual 10 Gbps links to the core
+network.
+
+The backbone connects 34 public universities, 2 international universities
+(Islamic University of Technology and Asian University for Women), 3 private
+universities (North South University, Independent University and BRAC
+University) and the University Grants Commission.
+
+For commercial Internet, BdREN has subscribed 4 Gbps of bandwidth from multiple
+upstream providers; individual universities subscribe an allocation according to
+their own requirements. International academic traffic is carried over dedicated
+connectivity to the Trans-Eurasia Information Network (TEIN), letting researchers
+and students collaborate with the global research and education community.

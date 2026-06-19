@@ -1,0 +1,14 @@
+BdREN Managed Services
+
+BdREN is ready to provide managed services for its member organisations. Such
+services range from monitoring a member institution's IT network to providing
+full-service hardware, software, design, monitoring and operations.
+
+The managed services on offer include 7x24 NOC service, maintenance services,
+campus network management, data centre management, virtual conferencing, data
+backup services, email management and migration, web hosting, eduroam services,
+identity and access management (IAM), and email spam and phishing mitigation.
+
+Because the scope and scale of such services can vary, the rate for managed
+services is fixed through bilateral negotiation between BdREN and the member
+institution.

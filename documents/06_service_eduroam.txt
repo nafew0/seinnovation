@@ -1,0 +1,19 @@
+Eduroam at BdREN
+
+eduroam (education roaming) is the secure, world-wide roaming access service
+developed for the international research and education community. It allows
+students, researchers and staff from participating institutions to obtain
+Internet connectivity across their own campus and when visiting any other
+participating institution, simply by opening their laptop — using the login
+credentials issued by their home institution.
+
+User credentials are never shared with the site being visited. Instead they are
+forwarded to the user's home institution, where they are verified and validated,
+through a network of RADIUS servers run by the institutions and the
+participating National Research and Education Networks (NRENs). In Bangladesh,
+BdREN operates National RADIUS Servers connected to upstream European and Asian
+servers.
+
+The service is available at thousands of hotspots in more than 100 territories
+worldwide. Thanks to a global agreement, the eduroam Wi-Fi roaming service is
+free of charge to users.

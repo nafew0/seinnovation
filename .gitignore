@@ -1,0 +1,14 @@
+# Candidate output (generated at runtime)
+output.txt
+
+# Local secrets — never commit your real key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store

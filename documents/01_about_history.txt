@@ -1,0 +1,25 @@
+About BdREN
+
+BdREN is the national platform that links the country's universities and
+research institutions to one another and to the global research and education
+community. Its mission is to be an enabler for excellence in research and
+education by strengthening the quality of research, education, innovation and
+strategic collaboration at home and abroad.
+
+The network was implemented by the University Grants Commission (UGC) of
+Bangladesh on behalf of the Ministry of Education under the Higher Education
+Quality Enhancement Project (HEQEP), through joint financing by the Government
+of Bangladesh and the World Bank.
+
+Bangladesh Research and Education Network (BdREN) is the only National Research
+and Education Network (NREN) in Bangladesh. It began operating in 2009 under
+HEQEP, when connectivity among the first institutions was established; this is
+the year in which BdREN was established. The non-profit BdREN Trust was later
+formally constituted in 2014 to operate and maintain the network on a
+sustainable basis, with a board of trustees drawn from the universities, UGC and
+the Ministry of Education.
+
+A leased 3,200 km Optical Ground Wire (OPGW) backbone was rolled out from 2011
+onwards, and the network had reached 34 universities by 2015. In 2025 BdREN
+recorded a positive net surplus for the first time, demonstrating its financial
+sustainability.

@@ -1,0 +1,10 @@
+BdREN Quality of Service
+
+BdREN commits to defined service-quality targets across its network. The Dhaka
+fibre ring carries a 99.75% uptime commitment, with at most 120 minutes of
+downtime per month. Average packet loss is held below 0.5% on a day's average.
+
+Latency targets include under 15 ms to peering routers and under 70 ms to
+servers in Singapore, while overall network jitter to anywhere in the world is
+kept below 50 ms. These commitments underpin the connectivity and collaboration
+services used by member institutions every day.

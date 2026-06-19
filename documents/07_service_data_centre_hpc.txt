@@ -1,0 +1,12 @@
+BdREN Data Centre, Cloud and HPC
+
+BdREN's High Performance Computing (HPC) system was implemented to provide cloud
+services to all BdREN members, including higher-education institutes, medical
+colleges and research institutes. The platform offers Infrastructure as a
+Service (IaaS) and may be extended to Platform as a Service (PaaS) and Software
+as a Service (SaaS).
+
+Two data centres, hosted at UGC and BUET, run with redundant systems and
+disaster-recovery capability. They provide floor space, power, HVAC, structured
+cabling, network-switch connections and WAN links that support the virtualised
+infrastructure, as well as colocation and GPU resources for member institutions.

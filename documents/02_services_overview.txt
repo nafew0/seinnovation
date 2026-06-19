@@ -1,0 +1,19 @@
+BdREN Services
+
+BdREN delivers a broad catalogue of digital services to its connected member
+institutions, spanning connectivity, collaboration, computing and content.
+
+Its main services include high-speed Internet and data connectivity over the
+national fibre-optic backbone; eduroam secure Wi-Fi roaming; video conferencing
+and Zoom-based virtual meetings; data centre, cloud and high-performance
+computing facilities; and access to e-journals and digital library resources
+through national subscriptions.
+
+The wider service catalogue also lists VPN and DNS, bulk emailing, learning
+management (LMS), virtual desktop infrastructure (VDI), cloud storage, smart
+classrooms and distance-learning theatres, software development and basic ERP
+modules, training and workshops, consultancy, and grants and financial
+assistance.
+
+These services are intended to support teaching, learning, research and
+administration across the member community.
