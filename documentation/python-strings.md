@@ -117,6 +117,28 @@ non_empty = [p.strip() for p in paragraphs if p.strip()]
 
 ---
 
+## Splitting a document into chunks
+
+Putting the pieces above together — split on blank lines, tidy each piece, drop
+the empties:
+
+```python
+def split_into_chunks(text):
+    chunks = []
+    for para in text.split("\n\n"):     # paragraphs = blank-line separated
+        para = " ".join(para.split())   # collapse newlines/extra spaces into single spaces
+        if para:                        # skip empty pieces
+            chunks.append(para)
+    return chunks
+```
+
+This returns a list of plain-string chunks for **one** document. In the exercise
+you have several documents and must keep each chunk's filename next to it (so you
+can report the source later), so you'll adapt the shape — see the worked example
+in `README.md`.
+
+---
+
 ## Reading files
 
 ```python

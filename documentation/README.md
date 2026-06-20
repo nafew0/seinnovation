@@ -27,6 +27,59 @@ Your program answers each question by:
 - **TODO 2 — `retrieve`** → `scikit-learn-text.md`
 - **TODO 3 — `answer_question`** → `python-strings.md` (f-strings) + `openai-python.md`
 
+## A worked example
+
+A tiny end-to-end run on a toy document, to show how the pieces fit together.
+Your task is shaped differently — the real documents arrive as `(filename, text)`
+pairs, and your program must also report the **source file** and cope with
+questions the documents don't answer — so treat this as a starting point to
+adapt, not a drop-in.
+
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+def split_into_chunks(text):
+    # one chunk per paragraph (blank-line separated)
+    return [p.strip() for p in text.split("\n\n") if p.strip()]
+
+def rank(query, chunks, k=2):
+    vectorizer = TfidfVectorizer(stop_words="english")
+    matrix = vectorizer.fit_transform(chunks)
+    scores = cosine_similarity(vectorizer.transform([query]), matrix)[0]
+    order = scores.argsort()[::-1]          # best score first
+    return [chunks[i] for i in order[:k]]   # the top-k chunk texts
+
+def make_prompt(query, context_chunks):
+    context = "\n\n".join(context_chunks)
+    return f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
+
+# a toy document (your real documents arrive as (filename, text) pairs)
+document = (
+    "Paris is the capital of France.\n\n"
+    "The Eiffel Tower, built in 1889, stands in Paris.\n\n"
+    "Mount Everest is the tallest mountain on Earth."
+)
+
+chunks = split_into_chunks(document)
+top = rank("Where is the Eiffel Tower?", chunks, k=2)
+prompt = make_prompt("Where is the Eiffel Tower?", top)
+# answer = call_llm(prompt)   # in rag.py, call_llm is already written for you
+print(top)
+```
+
+To fit it to the exercise you'll need to extend it — the example deliberately
+leaves these out:
+
+- it works on plain strings; your chunks are `(filename, chunk_text)` pairs, so
+  keep each chunk's filename with it (you report the source in TODO 3);
+- `rank` always returns `k` chunks; consider a minimum score so a question with
+  no good match can return nothing;
+- it neither reports a **source** nor handles **"the answer isn't in the
+  documents"** — both are part of the grade;
+- the prompt is bare; yours should tell the model to use **only** the context and
+  to answer every part of the question.
+
 ## Things worth getting right (this is where marks are won)
 
 - A heading on its own is a poor chunk — the answer usually lives in the text
